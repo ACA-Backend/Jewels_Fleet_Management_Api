@@ -1,0 +1,21 @@
+{
+  "name": "jewel_fleet_management_api",
+  "version": "1.0.0",
+  "description": "A fleet management API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jewel Chidinma",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "express": "^4.21.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.6.3",
+    "nodemon": "^3.1.7"
+  }
+}
